@@ -8,9 +8,9 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     application
-
+    id("com.jfrog.artifactory") version "5.+"
 }
-apply plugin: 'com.jfrog.artifactory'
+
 
 repositories {
     // Use Maven Central for resolving dependencies.
